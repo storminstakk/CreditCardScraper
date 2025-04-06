@@ -37,3 +37,7 @@ jobs:
     - name: Test with pytest
       run: |
         pytest
+# Add this section to your current .github/workflows/python-app.yml file
+    - name: Test with pytest
+      run: |
+        pytest tests
